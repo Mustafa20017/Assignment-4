@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- ########################### Header  ########################### -->
+
+  <!-- ###########################
+                        Top Bar
+                ############################ -->
+  <div style="background-color: #2E2C37 ;">
+    <div class="container">
+      <div class="col-sm2" id="header-right">
+        <div class="container-fluid top">
+          <a class="link" href="Signup.html">Log In</a>
+          <a class="link" href="">My Account</a>
+
+        </div>
+        <div id="fadeshow1">
+          <a class="nav" href="AboutUs.html">About Computer World</a>
+          <a class="nav" href="ContactUs.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ###########################
+                        Navigation Bar
+                ############################ -->
+  <div style="background-color:#000000 ;">
+  <div class="container">
+  <div class=" navigation">
+    <div class="col-sm3" id="header-right">
+
+      <img style="margin: 0px 15px;" width="200" height="100"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT95BjZrNtVhhzBXMmXXyLoSujIfafOkHlBVDIhVP0mnBuZtAk8&usqp=CAU"
+        alt="">
+
+      <form style="display: inline-block;" class="form-inline ">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" size="35" aria-label="Search">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+        <i class="fa fa-shopping-cart" id="cart-icon" style="font-size:30px;color:white "></i>
+      </form>
+      
+
+    </div>
+  </div>
+</div>
+
+    <div style="background-color: #C8171F;">
+    <div class="container">
+    <nav style="background-color: #C8171F;" class="navbar navbar-expand-lg navbar-light ">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item dropdown" id="dropdown">
+            <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Product
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Laptop</a>
+              <a class="dropdown-item" href="#">Graphic Card</a>
+              <a class="dropdown-item" href="#">Desktop</a>
+              <a class="dropdown-item" href="#">Laptop Accessories</a>
+              <a class="dropdown-item" href="#">Desktop Accessories</a>
+              <a class="dropdown-item" href="#">Memory Card/Ram</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="#">Laptop </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="#">Graphic Card </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="#">Monitors </a>
+          </li>
+          <li class="nav-item">
+            <a style="color: white;" class="nav-link" href="#">Desktop </a>
+          </li>
+
+
+        </ul>
+
+
+      </div>
+    </nav>
+  </div>
+</div>
+
+  </div>
+  </div>
+
+  <!-- ########################### Content ########################### -->
+
+  <!-- ###########################
+                        Slider
+                ############################ -->
+
+  <div class="container">
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        <li data-target="#slides" data-slide-to="3"></li>
+        <li data-target="#slides" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100"
+            src="https://www.lifewire.com/thmb/JTF_YKgJQN5mdInz-RDmh3A00cg=/1500x1187/filters:fill(auto,1)/Acer-HD-monitor-57c8a7333df78c71b67166b2.jpg"
+            alt="">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="https://www.extremetech.com/wp-content/uploads/2018/08/RTX-2080Ti.jpg" alt="">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="https://static.techspot.com/articles-info/1430/images/Image_07S.jpg" alt="">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100" src="https://cdn.mos.cms.futurecdn.net/uchGzUafnr4PfdmpRs5SeF.jpg" alt="">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100"
+            src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401014_sd.jpg" alt="">
+        </div>
+
+
+      </div>
+      <a class="carousel-control-prev" href="#slides" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slides" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+
+
+
+    <div class="main">
+      <div class="card1">
+        <div>
+          <i class="fa fa-truck"></i>
+        </div>
+        <div>
+          <p style="font-weight: bold;">Country Wide Delivery</p>
+        </div>
+      </div>
+      <div class="card2">
+        <div>
+          <i class="fa fa-phone-square"></i>
+        </div>
+        <div>
+          <p style="font-weight: bold;">Customer Support</p>
+        </div>
+      </div>
+      <div class="card3">
+        <div>
+          <i class="fa fa-cube"></i>
+        </div>
+        <div>
+          <p style="font-weight: bold;">Safe Payment Protection</p>
+        </div>
+      </div>
+      <div class="card4">
+        <div>
+          <i class="fa fa-reply"></i>
+        </div>
+        <div>
+          <p style="font-weight: bold;">Shop With Confidence</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ###########################
+                                    Product Card
+                            ########################### -->
+
+    <div class="heading1">
+      <h3>Featured Product</h3>
+    </div>
+    <div class="fproduct">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-deck">
+              <div class="card">
+                <img class="center"
+                  src="https://www.czone.com.pk/Images/Thumbnails/copy-1558442234-1477630-1540-8600-240919094822.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lenovo LEGION Y540 (15”) Gaming Laptop</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>Intel Core i7-9750H 2.6 GHz up to 4.5 GHz</li>
+                    <li>8GB DDR4 2666 MHz | 512GB NVMe SSD</li>
+                    <li>NVIDIA GeForce GTX 1650 4GB GDDR5</li>
+                    <li>15.6 in Full HD LED display (1920 x 1080) | Windows 10</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.167,500</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="center"
+                  src="https://www.czone.com.pk/Images/Thumbnails/zt-t20810d-10p-image01-1-1540-7111-161018103808.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ZOTAC GAMING GeForce RTX 2080 Ti AMP ZT-T20810D-10P Graphics Card</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>CUDA cores 4352</li>
+                    <li>Engine Clock Boost: 1665 MHz</li>
+                    <li>11GB GDDR6 352-bit</li>
+                    <li>Memory Clock 14.0 Gbps</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.189,500</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="center" src="https://www.czone.com.pk/Images/Thumbnails/z4d34aa-1540-6953-050520062154.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">OMEN by HP 27 Gaming Monitor (Z4D34AA) 165Hz 27" 2K WQHD 1ms Nvidia G-Sync</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>QHD (2560 x 1440 @ 165 Hz)</li>
+                    <li>Display size (diagonal) 68.58 cm (27")</li>
+                    <li>Response time 1 ms gray to gray</li>
+                    <li>165Hz refresh rate | Security lock-ready (lock is sold separately)</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.83,000</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="heading1">
+      <h3>Featured Product</h3>
+    </div>
+    <div class="fproduct">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-deck">
+              <div class="card">
+                <img class="center"
+                  src="https://www.czone.com.pk/Images/Thumbnails/copy-1558442234-1477630-1540-8600-240919094822.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lenovo LEGION Y540 (15”) Gaming Laptop</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>Intel Core i7-9750H 2.6 GHz up to 4.5 GHz</li>
+                    <li>8GB DDR4 2666 MHz | 512GB NVMe SSD</li>
+                    <li>NVIDIA GeForce GTX 1650 4GB GDDR5</li>
+                    <li>15.6 in Full HD LED display (1920 x 1080) | Windows 10</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.167,500</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="center"
+                  src="https://www.czone.com.pk/Images/Thumbnails/zt-t20810d-10p-image01-1-1540-7111-161018103808.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ZOTAC GAMING GeForce RTX 2080 Ti AMP ZT-T20810D-10P Graphics Card</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>CUDA cores 4352</li>
+                    <li>Engine Clock Boost: 1665 MHz</li>
+                    <li>11GB GDDR6 352-bit</li>
+                    <li>Memory Clock 14.0 Gbps</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.189,500</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="center" src="https://www.czone.com.pk/Images/Thumbnails/z4d34aa-1540-6953-050520062154.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">OMEN by HP 27 Gaming Monitor (Z4D34AA) 165Hz 27" 2K WQHD 1ms Nvidia G-Sync</h5>
+                  <p class="card-text">
+                  <ul>
+                    <li>QHD (2560 x 1440 @ 165 Hz)</li>
+                    <li>Display size (diagonal) 68.58 cm (27")</li>
+                    <li>Response time 1 ms gray to gray</li>
+                    <li>165Hz refresh rate | Security lock-ready (lock is sold separately)</li>
+                  </ul>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <p style="font-weight: bold; text-align: center; font-size: 18px;" class="card-text">Rs.83,000</p>
+                  <a href="#" class="btn btn-primary btn-lg btn-block">View Detail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ########################### Footer ########################### -->
+
+  <footer class="section footer-classic context-dark bg-image" id="footer" style="background: #2d3246;">
+    <div class="container">
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light"
+                src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37"
+                srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+            <p>Welcome to ComputerWorld. Online Computer store in Pakistan. Buy Dell, Lenovo, HP, Acer laptops at best
+              prices in Pakistan.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span
+                class="copyright-year">2020</span><span> </span><span>ComputerWorld</span><span>. </span><span>All
+                Rights Reserved.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacts</h5>
+          <dl class="contact-list">
+            <dt>Address:</dt>
+            <dd>Abc Road</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>email:</dt>
+            <dd><a href="#">abc@gmail.com</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>phones:</dt>
+            <dd><a href="#">ComputerWorld.com</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Product</h5>
+          <ul class="nav-list">
+            <li><a href="#">Laptop</a></li>
+            <li><a href="#">Graphic Card</a></li>
+            <li><a href="#">Monitor</a></li>
+            <li><a href="#">Desktop</a></li>
+            <li><a href="#">Printer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span
+            class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+
+</html>
